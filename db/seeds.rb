@@ -13,7 +13,7 @@ require 'faker'
       email: Faker::Internet.email,
       password: Faker::Internet.password,
       confirm_password: Faker::Internet.password,
-      type_of_investment: Faker::Lorem.word,
+      type_of_investment: ["bonds", "bills", "shares"].sample,
       gender: Faker::Gender.binary_type,
       location: Faker::Address.city,
       created_at: Faker::Time.between(from: DateTime.now - 1, to: DateTime.now),
