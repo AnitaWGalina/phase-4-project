@@ -1,0 +1,15 @@
+current directory: /home/student/Development/phase-4/phase-4-project/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+/usr/bin/ruby2.7 -I /usr/lib/ruby/2.7.0 -r ./siteconf20230705-360848-rn69lh.rb extconf.rb
+creating Makefile
+
+current directory: /home/student/Development/phase-4/phase-4-project/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /home/student/Development/phase-4/phase-4-project/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /home/student/Development/phase-4/phase-4-project/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20230705-360848-13rafkk
